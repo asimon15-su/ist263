@@ -2,6 +2,8 @@ body {background-color: #fff8f2;
     color: #212934; }
 a {color: #b82525; }
 h1 {color: #4b536b; }
-nav {background-color: #ffad81; }
+nav {background-color: #ffad81; 
+    padding: 10px; 
+    margin-bottom: 30px; }
 nav a:hover {background-color: #ffd6bf; }
 nav a {color: #734630; }
