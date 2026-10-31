@@ -14,7 +14,7 @@ nav a {color: #734630; }
 .skillsimage {text-align: center; 
             flex-basis: 50%; }
 
-.img1 {float: right; margin: 0em 1em 2em 2em; }
+.img1 {float: right; margin: 0em 1em 2em 2em; max-width: 100%; }
 
 .address {display: flex; }
 .address article {background-color: #ced6f1; 
@@ -22,7 +22,16 @@ nav a {color: #734630; }
                 padding: 20px; 
                 border-radius: 10px; }
 
-.form {display: flex; }
+.form {display: flex; 
+    flex-wrap: wrap; }
 .form article {background-color: #ced6f1; 
                 padding: 20px; border-radius: 10px; margin: 5px 5px 10px 10px; }
 .quote {float: right; }
+
+@media only screen and (min-width: 801px) {
+                 }
+            
+@media only screen and (max-width: 800px)   {nav a {max-width: 100%; 
+display: block; } 
+nav span {display: none; } 
+nav {margin: 40px; padding: 20px; }}
