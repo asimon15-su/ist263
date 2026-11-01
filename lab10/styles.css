@@ -16,7 +16,8 @@ nav a {color: #734630; }
 
 .img1 {float: right; margin: 0em 1em 2em 2em; max-width: 100%; }
 
-.address {display: flex; }
+.address {display: flex; 
+    flex-wrap: wrap ;}
 .address article {background-color: #ced6f1; 
                 margin: 5px 5px 10px 10px; 
                 padding: 20px; 
