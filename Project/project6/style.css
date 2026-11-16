@@ -1,3 +1,11 @@
+@media only screen and (min-width: 801px) {
+                .mobilesize {display: none; }
+            }
+@media only screen and (max-width: 800px) {
+                .desktopsize {display: none; }
+                .mobilesize {display: block; 
+                        justify-content: left; }
+            }
 body {font-family: sans-serif; }
 
 header {display: flex; 
