@@ -1,0 +1,5 @@
+#photos {display: flex; 
+        width: 500px;
+        height: 150px}
+#photo1, #photo2, #photo3, #photo4, #photo5, #photo6 {width: 350px; 
+        height: auto; }
