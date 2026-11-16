@@ -3,7 +3,9 @@
             }
 @media only screen and (max-width: 800px) {
                 .desktopsize {display: none; }
-                .mobilesize {display: block; }
+                .mobilesize {display: block; 
+                                font-size: 1em; 
+                                justify-content: left;}
             }
 body {font-family: sans-serif; }
 
@@ -14,7 +16,8 @@ header {display: flex;
 nav {text-align: center;
         font-size: 2em ; }
 
-#photos {display: flex; }
+#photos {display: flex; 
+        flex-wrap: wrap; }
 
 #photosrow1, 
 #photosrow2, 
