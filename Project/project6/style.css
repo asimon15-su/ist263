@@ -3,8 +3,7 @@
             }
 @media only screen and (max-width: 800px) {
                 .desktopsize {display: none; }
-                .mobilesize {display: block; 
-                        justify-content: left; }
+                .mobilesize {display: block; }
             }
 body {font-family: sans-serif; }
 
