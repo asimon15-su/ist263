@@ -1,5 +1,21 @@
-#photos {display: flex; 
-        width: 500px;
-        height: 150px}
-#photo1, #photo2, #photo3, #photo4, #photo5, #photo6 {width: 350px; 
-        height: auto; }
+header {display: flex; 
+        justify-content: space-between;
+        margin: 0 100px; }
+        
+nav {text-align: center;
+        font-size: 2em ; }
+
+#photos {display: flex; }
+
+#photosrow1, 
+#photosrow2, 
+#photosrow3 {padding: 15px; }
+
+#photo1, 
+#photo2, 
+#photo3, 
+#photo4, 
+#photo5,
+#photo6 {width: 350px; 
+        height: auto; 
+        padding: 15px; }
