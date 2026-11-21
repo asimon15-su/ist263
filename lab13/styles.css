@@ -1,13 +1,13 @@
 body {background-color: #fff8f2; 
     color: #212934; 
     font-size: 100%; }
-a {color: #b82525; }
+a {color: #4c0000; }
 h1 {color: #4b536b; }
 nav {background-color: #ffad81; 
     padding: 10px; 
     margin-bottom: 30px; }
 nav a:hover {background-color: #ffd6bf; }
-nav a {color: #734630; }
+nav a {color: #482717; }
 
 .skillsheading {text-align: center; }
 .skillstable table {margin: 0 auto; 
